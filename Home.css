@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #caf0f8;
+    border-radius: 50px;
+  }
+
+  .navbar .nav-link {
+    color: rgb(60, 141, 248) !important;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: transform 0.2s;
+  }
+
+  .navbar .nav-link:hover {
+    color: rgb(0, 141, 248);
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 141, 248); 
+    transform: scale(1.1); 
+  }
+
+  .navbar .nav-link img {
+    transition: transform 0.2s;
+  }
+
+  .navbar .nav-link:hover img {
+    transform: scale(1.1);
+  }
+  .searchbar{
+        background-color: transparent; 
+  }

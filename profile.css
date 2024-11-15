@@ -1,0 +1,53 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+  }
+  .profile-wrapper {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .profile-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .profile-header h2 {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  .profile-section {
+    margin-bottom: 1.5rem;
+  }
+  .profile-section label {
+    font-weight: bold;
+    color: #555;
+  }
+  .profile-section input[type="text"],
+  .profile-section textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .profile-section textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  .save-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .save-btn:hover {
+    background-color: #0056b3;
+  }

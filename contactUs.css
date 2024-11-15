@@ -1,0 +1,33 @@
+
+body {
+background-color: #caf0f8;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+}
+
+
+.container {
+max-width: 800px;
+width: 100%;
+background-color: whitesmoke;
+box-shadow: 5px 5px 8px 2px #282828;
+}
+
+
+.image-section {
+height: 80%;
+background-image: url('./images/image\ copy.png');
+background-size: cover;
+background-position: center;
+}
+
+.contact-form {
+padding: 20px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+
+}
+

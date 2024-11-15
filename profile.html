@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./profile.css">
+</head>
+<body style="background-color: #caf0f8;">
+
+  <div class="profile-wrapper">
+    <div class="profile-header">
+      <h2>User Profile</h2>
+    </div>
+
+    <form id="profileForm" onsubmit="updateUserProfile(event)">
+      <div class="profile-section">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="profile-section">
+        <label for="email">Email Address</label>
+        <input type="text" id="email" class="form-control" placeholder="Enter your email" disabled>
+      </div>
+
+      <div class="profile-section">
+        <label for="country">Country</label>
+        <input type="text" id="country" class="form-control" placeholder="Enter your country" required>
+      </div>
+
+      <div class="profile-section">
+        <label for="nativeLanguage">Native Language</label>
+        <input type="text" id="nativeLanguage" class="form-control" placeholder="Enter your native language" required>
+      </div>
+
+      <div class="profile-section">
+        <label for="summary">Summary</label>
+        <textarea id="summary" class="form-control" placeholder="Brief summary about yourself" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary save-btn">Save Profile</button>
+    </form>
+
+    <button class="btn btn-danger btn-block mt-3" onclick="logout()">Log Out</button>
+    <button class="btn btn-secondary btn-block mt-2" onclick="goToHome()">Go to Home</button>
+  </div>
+
+  <script src="profile.js"></script>
+
+</body>
+</html>

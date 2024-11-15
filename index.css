@@ -1,0 +1,70 @@
+/* Navbar Styling */
+.navbar {
+    width: 100%;
+    padding: 1rem;
+}
+.navbar-brand {
+    color: rgb(60, 141, 248);
+}
+.navbar-brand p {
+    padding-left: 10px;
+    font-weight: bold;
+    margin: 0;
+}
+.nav-link {
+    color: rgb(60, 141, 248) !important;
+}
+.nav-link:hover {
+    color: #0077b6 !important;
+}
+.btn-login, .btn-signup {
+    background-color: #caf0f8;
+    border: none;
+    color: rgb(60, 141, 248);
+}
+
+/* Carousel Styling */
+.carousel-container {
+    width: 70%;
+    margin: 60px auto;
+}
+.carousel-inner {
+    height: 70vh;
+}
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background-color: whitesmoke;
+    padding: 50px 0;
+    text-align: left;
+}
+.hero-text h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+.hero-text p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 20px;
+}
+.hero-btn {
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+.hero-btn:hover {
+    background-color: #2563eb;
+}
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
